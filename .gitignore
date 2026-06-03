@@ -1,0 +1,15 @@
+# Build outputs
+bin/
+obj/
+*.user
+*.suo
+*.vshost.exe
+*.vshost.exe.manifest
+*.vshost.exe.config
+
+# NuGet
+packages/
+
+# VS cache
+.vs/
+*.cache

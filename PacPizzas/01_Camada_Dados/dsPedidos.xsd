@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPedidos" targetNamespace="http://tempuri.org/dsPedidos.xsd" xmlns:mstns="http://tempuri.org/dsPedidos.xsd" xmlns="http://tempuri.org/dsPedidos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPedidos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsPedidos" msprop:Generator_UserDSName="dsPedidos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="pedidos" msprop:Generator_TableClassName="pedidosDataTable" msprop:Generator_TableVarName="tablepedidos" msprop:Generator_TablePropName="pedidos" msprop:Generator_RowDeletingName="pedidosRowDeleting" msprop:Generator_RowChangingName="pedidosRowChanging" msprop:Generator_RowEvHandlerName="pedidosRowChangeEventHandler" msprop:Generator_RowDeletedName="pedidosRowDeleted" msprop:Generator_UserTableName="pedidos" msprop:Generator_RowChangedName="pedidosRowChanged" msprop:Generator_RowEvArgName="pedidosRowChangeEvent" msprop:Generator_RowClassName="pedidosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pedido_codigo" msprop:Generator_ColumnVarNameInTable="columnpedido_codigo" msprop:Generator_ColumnPropNameInRow="pedido_codigo" msprop:Generator_ColumnPropNameInTable="pedido_codigoColumn" msprop:Generator_UserColumnName="pedido_codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="pedido_data" msprop:Generator_ColumnVarNameInTable="columnpedido_data" msprop:Generator_ColumnPropNameInRow="pedido_data" msprop:Generator_ColumnPropNameInTable="pedido_dataColumn" msprop:Generator_UserColumnName="pedido_data" type="xs:string" minOccurs="0" />
+              <xs:element name="pedido_horario" msprop:Generator_ColumnVarNameInTable="columnpedido_horario" msprop:Generator_ColumnPropNameInRow="pedido_horario" msprop:Generator_ColumnPropNameInTable="pedido_horarioColumn" msprop:Generator_UserColumnName="pedido_horario" type="xs:string" minOccurs="0" />
+              <xs:element name="pedido_cliente_sequencial" msprop:Generator_ColumnVarNameInTable="columnpedido_cliente_sequencial" msprop:Generator_ColumnPropNameInRow="pedido_cliente_sequencial" msprop:Generator_ColumnPropNameInTable="pedido_cliente_sequencialColumn" msprop:Generator_UserColumnName="pedido_cliente_sequencial" type="xs:string" minOccurs="0" />
+              <xs:element name="pedido_funcionario_cpf" msprop:Generator_ColumnVarNameInTable="columnpedido_funcionario_cpf" msprop:Generator_ColumnPropNameInRow="pedido_funcionario_cpf" msprop:Generator_ColumnPropNameInTable="pedido_funcionario_cpfColumn" msprop:Generator_UserColumnName="pedido_funcionario_cpf" type="xs:string" minOccurs="0" />
+              <xs:element name="pedido_total" msprop:Generator_ColumnVarNameInTable="columnpedido_total" msprop:Generator_ColumnPropNameInRow="pedido_total" msprop:Generator_ColumnPropNameInTable="pedido_totalColumn" msprop:Generator_UserColumnName="pedido_total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
