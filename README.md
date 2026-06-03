@@ -144,12 +144,6 @@ Abra `PacPizzas.sln` no Visual Studio e pressione **F5** para compilar e executa
 
 ---
 
-## 🔑 Acesso Padrão
-
-| Campo | Valor |
-|---|---|
-| Login | `admin` |
-| Senha | `admin` |
 
 > ⚠️ Troque a senha após o primeiro acesso.
 
